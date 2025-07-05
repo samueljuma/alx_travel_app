@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'drf_yasg', # Swagger for API documentation
 
     # Local apps
-    'listings',
+    'alx_travel_app.listings.apps.ListingsConfig'  # App for handling travel listings
 
 ]
 
